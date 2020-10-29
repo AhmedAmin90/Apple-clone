@@ -6,11 +6,11 @@ Fourth Microverse Project
 
 # Project Name
 
-> Cloning Apple page .
+> Cloning Apple page.
 
 ![screenshot](./src/images/app_screenshot.png)
 
-We cloned this page and made the main sections inside the page like:
+We cloned this [Apple](https://web.archive.org/web/20140301004610/http://www.apple.com/) page and made the main sections inside the page like:
 
 - Gradient background for divs.
 - Background images.
@@ -20,9 +20,12 @@ We cloned this page and made the main sections inside the page like:
 
 ## Built With
 
-- HTML
-- CSS
-- FONTAWESOME
+- HTML:
+- - Using semantic tags.
+- CSS:
+- - Using styling for Grids, Gradient and Background Images.
+- FONTAWESOME:
+- - For the Icons.
 
 ## Live Demo
 
@@ -54,9 +57,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse Team.
 
 ## 📝 License
 

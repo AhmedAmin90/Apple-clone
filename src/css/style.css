@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: url("/src/images/your_verse_hero.jpg") no-repeat 50% 100%;
+  background: url("../images/your_verse_hero.jpg") no-repeat 50% 100%;
   height: 600px;
 }
 
@@ -83,13 +83,13 @@ nav .no-hover:hover {
 }
 
 .title {
-  background: url("/src/images/your_verse_title_small.png") no-repeat 50% 50%;
+  background: url("../images/your_verse_title_small.png") no-repeat 50% 50%;
   height: 55%;
   margin-top: 20px;
 }
 
 .sub-titles {
-  background: url("/src/images/your_verse_subhead_small.png") no-repeat 50% 50%;
+  background: url("../images/your_verse_subhead_small.png") no-repeat 50% 50%;
   height: 80%;
   margin: 15px 0;
   display: flex;
@@ -102,14 +102,14 @@ nav .no-hover:hover {
 }
 
 .last-titles {
-  background: url("/src/images/cta_your_verse_27pt.png") no-repeat;
+  background: url("../images/cta_your_verse_27pt.png") no-repeat;
   height: 28%;
   margin-left: 10%;
   margin-right: 20%;
 }
 
 .last-titles:hover {
-  background: url("/src/images/cta_your_verse_27pt-hover.png") no-repeat;
+  background: url("../images/cta_your_verse_27pt-hover.png") no-repeat;
   height: 100%;
   cursor: pointer;
   margin-left: 10%;
@@ -125,19 +125,23 @@ nav .no-hover:hover {
 }
 
 .product-one {
-  background: url("/src/images/1promo_iphone5s.jpg") no-repeat;
+  background: url("../images/1promo_iphone5s.jpg") no-repeat;
+  text-decoration: none;
 }
 
 .product-two {
-  background: url("/src/images/promo_iphone5c.jpg") no-repeat;
+  background: url("../images/promo_iphone5c.jpg") no-repeat;
+  text-decoration: none;
 }
 
 .product-three {
-  background: url("/src/images/promo_30_years.jpg") no-repeat;
+  background: url("../images/promo_30_years.jpg") no-repeat;
+  text-decoration: none;
 }
 
 .product-four {
-  background: url("/src/images/promo_supplier_responsibility.jpg") no-repeat;
+  background: url("../images/promo_supplier_responsibility.jpg") no-repeat;
+  text-decoration: none;
 }
 
 /*  Footer */
