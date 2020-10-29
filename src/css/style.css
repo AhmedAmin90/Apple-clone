@@ -1,38 +1,51 @@
 /*  Start on Hero section */
+body {
+  margin: 0%;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif
+}
 
 .hero-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+}
+
+header {
+  width: 845px;
 }
 
 nav ul {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(#858585, #606060, #858585);
   /* border: 1px solid #334451; */
   border-radius: 5px;
-  height: 30px;
+  height: 36px;
   margin-top: 75px;
+  padding: 0;
 }
 
 nav ul li {
   list-style: none;
+  font-size: 13px;
 }
 
 nav ul li a {
   color: white;
-  padding: 5px 25px;
+  padding: 5px 10px;
   text-decoration: none;
 }
 
-input[type="search"] {
+.search-bar {
   align-self: center;
-  width: 75%;
-  border-radius: 10px;
+  width: 100px;
+  height: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
   background: linear-gradient(#858585, #606060, #858585);
 }
 
@@ -40,5 +53,8 @@ nav i {
   color: white;
   font-size: 12px;
   position: relative;
-  right: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
