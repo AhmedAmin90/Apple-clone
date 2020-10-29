@@ -1,8 +1,7 @@
 /*  Start on Hero section */
 body {
   margin: 0%;
-  font-family:
-  "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .hero-section {
@@ -155,14 +154,14 @@ footer {
   margin: auto;
 }
 
-.bottom-footer p a {
-  color: #08c;
-  text-decoration: none;
+.left-top-footer p {
+  font-size: 10px;
+  color: #6e6e6e;
 }
 
-.bottom-footer p a:hover {
+.left-top-footer p a {
+  text-decoration: none;
   color: #08c;
-  text-decoration: underline;
 }
 
 .right-top-footer ul li a {
@@ -178,18 +177,18 @@ footer {
   text-decoration: underline;
 }
 
+.bottom-footer p a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.bottom-footer p a:hover {
+  color: #08c;
+  text-decoration: underline;
+}
+
 .left-top-footer {
   width: 45%;
-}
-
-.left-top-footer p {
-  font-size: 10px;
-  color: #6e6e6e;
-}
-
-.left-top-footer p a {
-  text-decoration: none;
-  color: #08c;
 }
 
 .left-top-footer p a:hover {
