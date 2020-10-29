@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-  width: 60%;
+  width: 980px;
   margin-top: 75px;
 }
 
@@ -23,6 +23,9 @@ nav .fa-apple {
   font-size: 25px;
 }
 
+nav .no-border {
+  border-left: none;
+}
 nav ul {
   width: 100%;
   display: flex;
@@ -37,11 +40,17 @@ nav ul {
 nav ul li {
   list-style: none;
   font-size: 13px;
+  height: 100%;
+  border-left: 1px solid #3f5356;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
+  display: inline-block;
+  height: 100%;
+  margin-top: 7px;
+  margin-left: 35px;
 }
 
 .search-bar {
@@ -52,6 +61,7 @@ nav ul li a {
   border-radius: 8px;
   background: linear-gradient(#858585, #606060, #858585);
   padding: 2px;
+  margin: 7px 0 0 15px;
 }
 
 .search-bar i {
@@ -70,25 +80,26 @@ nav ul li a {
 }
 
 .title {
-  background: url("/src/images/your_verse_title_small.png") no-repeat 20% 50%;
+  background: url("/src/images/your_verse_title_small.png") no-repeat 50% 50%;
   height: 55%;
   padding-left: auto;
-  margin-left: 20%;
-  margin-right: 20%;
+  /* margin-left: 20%;
+  margin-right: 20%; */
 }
 
 .sub-titles {
-  background: url("/src/images/your_verse_subhead_small.png") no-repeat;
+  background: url("/src/images/your_verse_subhead_small.png") no-repeat 50% 50%;
   height: 80%;
-  margin-top: 20px;
+  margin: 20px 0;
+  /* margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20%;
-  margin-right: 20%;
+  margin-right: 20%; */
   display: flex;
   justify-content: center;
 }
 
-.sub-titles h3 a{
+.sub-titles h3 a {
   color: white;
   text-decoration: none;
 }
@@ -103,11 +114,79 @@ nav ul li a {
 .last-titles:hover {
   background: url("/src/images/cta_your_verse_27pt-hover.png") no-repeat;
   height: 100%;
+  cursor: pointer;
   margin-left: 10%;
   margin-right: 20%;
 }
 
+/* Start on prodcuts section */
+
 .product-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 200px;
+}
+
+.product-one {
+  background: url("/src/images/1promo_iphone5s.jpg") no-repeat;
+}
+
+.product-two {
+  background: url("/src/images/promo_iphone5c.jpg") no-repeat;
+}
+
+.product-three {
+  background: url("/src/images/promo_30_years.jpg") no-repeat;
+}
+
+.product-four {
+  background: url("/src/images/promo_supplier_responsibility.jpg") no-repeat;
+}
+
+/*  Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-footer {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.left-top-footer {
+  width: 45%;
+}
+
+.left-top-footer p {
+  font-size: 10px;
+  color: #333;
+}
+
+.left-top-footer p a {
+  text-decoration: none;
+}
+
+.right-top-footer ul {
+  display: flex;
+  margin: 3px 0;
+}
+
+.right-top-footer ul li {
+  height: 100%;
+  list-style: none;
+  margin-left: 8px;
+}
+
+.right-top-footer ul li a {
+  font-size: 10px;
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+.right-top-footer .no-border {
+  border-left: none;
 }
