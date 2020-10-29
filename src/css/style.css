@@ -1,8 +1,8 @@
 /*  Start on Hero section */
 body {
   margin: 0%;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
-    sans-serif;
+  font-family:
+  "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .hero-section {
@@ -17,7 +17,7 @@ body {
 nav {
   width: 980px;
   margin-top: 75px;
-  background-color: #606060;
+  background: #606060;
   background: linear-gradient(180deg, #858585, #606060, #858585);
   height: 36px;
   display: flex;
@@ -48,13 +48,13 @@ nav .border-radius {
 }
 
 nav a {
-  color: #cccccc;
+  color: #ccc;
   text-decoration: none;
   font-size: 13px;
 }
 
 input[type="text"] {
-  background-color: #6f6f6f;
+  background: #6f6f6f;
   background: linear-gradient(180deg, #858585, #606060, #858585);
   border-radius: 10px;
   width: 100px;
@@ -86,7 +86,6 @@ nav .no-hover:hover {
 .title {
   background: url("/src/images/your_verse_title_small.png") no-repeat 50% 50%;
   height: 55%;
-  padding-left: auto;
   margin-top: 20px;
 }
 
@@ -156,6 +155,29 @@ footer {
   margin: auto;
 }
 
+.bottom-footer p a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.bottom-footer p a:hover {
+  color: #08c;
+  text-decoration: underline;
+}
+
+.right-top-footer ul li a {
+  color: #08c;
+  text-decoration: none;
+  font-size: 10px;
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+.right-top-footer ul li a:hover {
+  color: #08c;
+  text-decoration: underline;
+}
+
 .left-top-footer {
   width: 45%;
 }
@@ -186,28 +208,12 @@ footer {
   margin-left: 0;
 }
 
-.right-top-footer ul li a {
-  font-size: 10px;
-  text-decoration: none;
-  margin-left: 3px;
-}
-
 .right-top-footer .no-border {
   border-left: none;
 }
 
 .usa-flag {
   margin-top: 5px;
-}
-
-.right-top-footer ul li a {
-  color: #08c;
-  text-decoration: none;
-}
-
-.right-top-footer ul li a:hover {
-  color: #08c;
-  text-decoration: underline;
 }
 
 .bottom-footer {
@@ -218,14 +224,4 @@ footer {
 .bottom-footer p {
   font-size: 10px;
   color: #6e6e6e;
-}
-
-.bottom-footer p a {
-  color: #08c;
-  text-decoration: none;
-}
-
-.bottom-footer p a:hover {
-  color: #08c;
-  text-decoration: underline;
 }
