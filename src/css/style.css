@@ -63,11 +63,51 @@ nav ul li a {
 /*  Start on titles */
 
 .hero-titles {
-  margin: 20px auto;
+  margin: 20px 20px;
   text-align: center;
   color: white;
+  width: 80%;
 }
 
-.hero-titles p {
-  font-size: 50px;
+.title {
+  background: url("/src/images/your_verse_title_small.png") no-repeat 20% 50%;
+  height: 55%;
+  padding-left: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.sub-titles {
+  background: url("/src/images/your_verse_subhead_small.png") no-repeat;
+  height: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.sub-titles h3 a{
+  color: white;
+  text-decoration: none;
+}
+
+.last-titles {
+  background: url("/src/images/cta_your_verse_27pt.png") no-repeat;
+  height: 28%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.last-titles:hover {
+  background: url("/src/images/cta_your_verse_27pt-hover.png") no-repeat;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.product-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
