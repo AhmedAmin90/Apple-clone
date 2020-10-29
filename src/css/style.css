@@ -1,12 +1,7 @@
 /*  Start on Hero section */
 body {
   margin: 0%;
-  font-family: "Lucida Grande", 
-  "Lucida Sans Unicode",  
-  Helvetica, 
-  Arial, 
-  Verdana, 
-  sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .hero-section {
@@ -169,19 +164,9 @@ footer {
   color: #08c;
 }
 
-.left-top-footer p a:hover {
-  text-decoration: underline;
-  color: #08c;
-}
-
 .bottom-footer p a {
   color: #08c;
   text-decoration: none;
-}
-
-.bottom-footer p a:hover {
-  color: #08c;
-  text-decoration: underline;
 }
 
 .right-top-footer ul li a {
@@ -190,6 +175,16 @@ footer {
   font-size: 10px;
   text-decoration: none;
   margin-left: 3px;
+}
+
+.left-top-footer p a:hover {
+  text-decoration: underline;
+  color: #08c;
+}
+
+.bottom-footer p a:hover {
+  color: #08c;
+  text-decoration: underline;
 }
 
 .right-top-footer ul li a:hover {
