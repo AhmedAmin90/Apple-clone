@@ -1,1 +1,44 @@
+/*  Start on Hero section */
 
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#858585, #606060, #858585);
+  /* border: 1px solid #334451; */
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 75px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  padding: 5px 25px;
+  text-decoration: none;
+}
+
+input[type="search"] {
+  align-self: center;
+  width: 75%;
+  border-radius: 10px;
+  background: linear-gradient(#858585, #606060, #858585);
+}
+
+nav i {
+  color: white;
+  font-size: 12px;
+  position: relative;
+  right: 100px;
+}
