@@ -21,6 +21,9 @@ nav {
 
 nav .fa-apple {
   font-size: 25px;
+  position: relative;
+  right: 10px;
+  bottom: 2px
 }
 
 nav .no-border {
@@ -31,6 +34,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #606060;
   background: linear-gradient(#858585, #606060, #858585);
   border-radius: 5px;
   height: 36px;
@@ -42,6 +46,12 @@ nav ul li {
   font-size: 13px;
   height: 100%;
   border-left: 1px solid #3f5356;
+  width: 104px;
+}
+
+nav ul li:hover {
+  background-color: #606060;
+  cursor: pointer;
 }
 
 nav ul li a {
@@ -56,18 +66,21 @@ nav ul li a {
 .search-bar {
   align-self: center;
   width: 100px;
-  height: 15px;
+  height: 17px;
   border: 1px solid #606060;
   border-radius: 8px;
   background: linear-gradient(#858585, #606060, #858585);
   padding: 2px;
-  margin: 7px 0 0 15px;
+  margin: 10px 0 10px 15px;
+  outline: 0;
 }
 
-.search-bar i {
+ul .fa-search {
   color: white;
   font-size: 10x;
   margin-left: 5px;
+  position: relative;
+  right: 102px;
 }
 
 /*  Start on titles */
@@ -163,11 +176,17 @@ footer {
 
 .left-top-footer p {
   font-size: 10px;
-  color: #333;
+  color: #6E6E6E;
 }
 
 .left-top-footer p a {
   text-decoration: none;
+  color: #08c;
+}
+
+.left-top-footer p a:hover {
+  text-decoration: underline;
+  color: #08c;
 }
 
 .right-top-footer ul {
@@ -178,7 +197,7 @@ footer {
 .right-top-footer ul li {
   height: 100%;
   list-style: none;
-  margin-left: 8px;
+  margin-left: 0;
 }
 
 .right-top-footer ul li a {
@@ -189,4 +208,38 @@ footer {
 
 .right-top-footer .no-border {
   border-left: none;
+}
+
+.usa-flag {
+  margin-top: 5px;
+}
+
+.right-top-footer ul li a {
+  color: #08c;
+  text-decoration:none;
+}
+
+.right-top-footer ul li a:hover {
+  color: #08c;
+  text-decoration:underline;
+}
+
+.bottom-footer {
+  width: 80%;
+  margin: auto;
+}
+
+.bottom-footer p {
+  font-size: 10px;
+  color: #6E6E6E;
+}
+
+.bottom-footer p a {
+  color: #08c;
+  text-decoration:none;
+}
+
+.bottom-footer p a:hover {
+  color: #08c;
+  text-decoration:underline;
 }
