@@ -10,28 +10,33 @@ Fourth Microverse Project
 
 ![screenshot](./src/images/app_screenshot.png)
 
-We cloned this [Apple](https://web.archive.org/web/20140301004610/http://www.apple.com/) page and made the main sections inside the page like:
+We cloned this [Apple](https://web.archive.org/web/20140301004610/http://www.apple.com/) page, with the next features:
 
-- Gradient background for divs.
-- Background images.
-- The main body.
+- Navigation Bar:
+- - Gradient background for divs.
+- Background images for the man section.
+- Footer part with images of products as backgrounds inside anchor elements.
 - The footer part for contact data of company.
-- Footer part for other links.
+- Footer part for other links, like Copyright and Privacy Policy.
 
 ## Built With
 
 - HTML:
-- - Using semantic tags.
+- - Using semantic tags like: main, section, footer.
 - CSS:
-- - Using styling for Grids, Gradient and Background Images.
+- - Using styling for Grids, Gradient and Background Images of the index.html .
 - FONTAWESOME:
-- - For the Icons.
+- - As a source of Icons.
 
 ## Live Demo
+
+Here you will find a Live Demo page.
 
 [Live Demo Link](https://raw.githack.com/AhmedAmin90/Apple-clone/featured/index.html)
 
 ## Authors
+
+Please feel free to contact us in any time:
 
 👤 **Carlos Mario **
 
@@ -49,15 +54,17 @@ We cloned this [Apple](https://web.archive.org/web/20140301004610/http://www.app
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MrkarlosM/nyt-article/issues).
+Feel free to check the [issues page](https://github.com/AhmedAmin90/Apple-clone/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+Also advices are well recieved.
 
 ## Acknowledgments
 
 - Microverse Team.
+- Apple.
 
 ## 📝 License
 
