@@ -30,7 +30,7 @@ We cloned this [Apple](https://web.archive.org/web/20140301004610/http://www.app
 
 ## Live Demo
 
-Here you will find a Live Demo page.
+Here you will find a Live Demo page, any comment is well recieved.
 
 [Live Demo Link](https://raw.githack.com/AhmedAmin90/Apple-clone/featured/index.html)
 
